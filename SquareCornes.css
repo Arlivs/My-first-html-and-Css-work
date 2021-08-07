@@ -1,0 +1,182 @@
+* {
+margin:0;
+font-family: sans-serif;
+}
+*:focus{
+    outline: 0;
+}
+
+body{
+background:linear-gradient(to right, #ffffff, #fae8d4);
+width:100%;
+height:100%;
+}
+
+.h1{
+color:#f19d00;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom: 25px;
+margin-top: 10px;
+}
+
+.pone{
+color:#f19d00;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 30px;
+padding-bottom: 200px;
+}
+
+legend, label{
+font-weight: 555;
+font-family:Arial, sans-serif;
+margin:10px 15px;
+margin-left:60px;
+font-size: 18px;
+}
+
+.h5one{
+text-align: center;
+font-size: 20px;
+color:#f19d00;
+margin-bottom: 10px;
+}
+
+.submone{
+text-align: center;
+}
+
+.squarec{
+position: relative;
+border-radius:10px;
+background:linear-gradient(to bottom right, #3b2eeb, #9300b1);
+padding:15px 10px;
+}
+
+input[type="number"]{
+background-color: rgba(245, 245, 245, .8);
+margin:5px 20px 0 10px;
+border-radius: 8px;
+padding:4px 15px 4px 5px;
+border:0;
+}
+
+input[type="submit"]{
+padding:4px 13px 4px 13px;
+margin-top:10px;
+background-color: #7436ad;
+border-radius:15px;
+cursor:pointer;
+border:0;
+}
+
+.foot{
+display: flex;
+position: absolute;
+bottom:0;
+height: 100px;
+width:100%;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(34, 34, 34);
+}
+
+.contai{
+    width: 1111px;
+    margin: 0 auto;
+}
+
+.ptwolink{
+color: white;
+text-transform:bold;
+font-weight:500;
+font-size:18px;
+margin-left: 30px;
+}
+
+a{
+color: rgb(93, 0, 180);
+text-decoration: none;
+margin-left: 10px;
+}
+
+.me{
+color:rgb(0, 2, 117);
+font-weight: 500;
+font-size:16px;
+margin-right: 30px;
+}
+
+.pprob{
+font-size:25px;
+color:#f19d00;
+background:linear-gradient(to left, #fae8d4, #ffe9d2);
+border-radius:10px;
+padding:10px 0 10px 15px;
+}
+
+.bigblock{
+justify-content: space-around;
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.span{
+font-family:Arial, Helvetica, sans-serif;
+margin-top: 100px;
+color:rgb(71, 71, 71);
+font-size: 30px;
+text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .h1{
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+    .pone{
+        font-size: 20px;
+        padding-bottom: 150px;
+    }
+    .pprob{
+        font-size: 20px;
+    }
+    .foot > p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px ) {
+    .pprob{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .foot>p{
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .pprob{
+        font-size: 16px;
+    }
+    .pone{
+        font-size: 15px;
+        margin-bottom: -50px;
+    }
+    a{
+        margin-left: 3px;
+    }
+    .h5one{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    legend{
+        font-size: 14px;
+    }
+}
